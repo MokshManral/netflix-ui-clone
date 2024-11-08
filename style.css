@@ -1,0 +1,325 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #1d1d1d;
+  color: white;
+  text-transform: capitalize;
+}
+button{
+  border-radius: 10px;
+}
+#colorbtn{
+  border: none;
+  background: red;
+  border-radius: 50px;
+}
+p{
+  text-transform: capitalize;
+}
+
+#firstPage{
+  margin: 0em 1.8em;
+}
+header{
+  align-items: center;
+  padding: 1rem 0rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h3{
+  color: red;
+}
+#diff{
+  display: flex;
+  gap: 10px;
+}
+
+#diff #language{
+  height: 30px;
+  border-radius: 25px;
+}
+#diff #language option{
+
+}
+
+#sign-in-button{
+  border-radius: 50px;
+  background: #ffffff;
+  width: 75px;
+  padding: 8px 12px;
+  color: black;
+  border: none;
+}
+
+#recommend-section{
+  display: none;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+#recommend-section nav{
+  display: none;
+  padding: 10px 15px;
+  width: max-content;
+  margin-top: 5px;
+  display: flex;
+  gap: 50px;
+  border-radius: 50px;
+  background: #000;
+}
+#recommend-section nav a{
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+#recommend-section a:hover{
+  opacity: 1;
+}
+
+#automaticvideo{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  width: 100%;
+}
+
+#video-text{
+  position: relative;
+  top:70%;
+  padding: 5px;
+  width: 90%;
+  height: max-content;
+}
+#automaticvideo h1{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+#automaticvideo p{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0.5em;
+  font-weight: 500;
+  opacity: 0.8;
+}
+#email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#email input{
+  height: 50px;
+  padding: 20px;
+  font-size: 15px;
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.668);
+}
+
+#email button{
+  margin-top: 10px;
+  height: 3rem;
+  width: 50%;
+  border-radius: 50px;
+  border: none;
+}
+
+#trending{
+  margin-top: 1rem;
+  width: 100%;
+  overflow: hidden;
+} 
+
+#trending h2{
+  margin-bottom: 5px;
+}
+#trending #slider {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+
+}
+
+#box{
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+#box img{
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+}
+#trending #slider #box img:hover{
+  transform: scale(105%);
+}
+
+#plan-box{
+  margin-top: 20px;
+}
+
+#plans{
+  display: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#plans h3{
+  font-weight: bold;
+}
+
+#plans h4{
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+#plans p{
+  opacity: 0.9;
+  font-weight: 700;
+}
+
+#reason-to-join{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#reason-box{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-radius: 20px;
+  margin: 2px 0px;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  border: 0.5px solid rgba(128, 128, 128, 0.528);
+}
+
+#reason-box h4{
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+#reason-box img{
+  display: flex;
+  justify-content: end;
+  width: 60px;
+  height: 60px;
+}
+
+#frequently-ques{
+  width: 100%;
+}
+
+#info1, #info2,#info3,#info4,#info5,#info6{
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  padding: 10px;
+  display: none;
+  width: 100%;
+  text-align: left;
+}
+
+#click-down{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  height: max-content;
+  justify-content: space-between;
+}
+i{
+  display: flex;
+  align-items: center;
+}
+#click-down h4{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 10px 0px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+#button{
+  margin-bottom: 50px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#cross{
+  display: none;
+}
+button{
+  border: 2px solid gray;
+  width: 130px;
+  font-weight: bold;
+  
+}
+
+#customercare p{
+  margin-bottom: 40px;
+}
+
+#dropdown{
+  height: 8px;
+  width: 15px;
+  padding: 5px;
+  border: 0.5px solid rgba(128, 128, 128, 0.606);
+  border-radius: 50px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+footer #customer-care p{
+  margin-bottom: 1rem;
+}
+
+#information a{
+  margin-top: 15px;
+  display: block;
+}
+
+#dropdownline{
+  margin: 10px 0px;
+}
+#dropdown{
+  height: 30px;
+  width: 100px;
+}
+footer p{
+  margin-bottom: 5rem;
+}
+
+@media max-height {
+  #click-down {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
