@@ -18,14 +18,15 @@ button{
 p{
   text-transform: capitalize;
 }
-
+.header{
+  margin:12px 0rem;
+}
 #firstPage{
-  margin: 0em 1.8em;
+  margin: 0 1rem
 }
 header{
   align-items: center;
-  padding: 1rem 0rem;
-  height: 5rem;
+  margin:12px 0rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,17 +150,17 @@ header h3{
 
 }
 
-#box{
+.image-container{
   display: flex;
   gap: 10px;
   overflow-x: scroll;
 }
-#box img{
+.image-container img{
   border-radius: 10px;
   height: 200px;
   width: 150px;
 }
-#trending #slider #box img:hover{
+#trending #slider .image-container img:hover{
   transform: scale(105%);
 }
 
@@ -194,37 +195,11 @@ header h3{
   gap: 10px;
 }
 
-#reason-box{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  border-radius: 20px;
-  margin: 2px 0px;
-  height: auto;
-  width: 100%;
-  padding: 1rem;
-  border: 0.5px solid rgba(128, 128, 128, 0.528);
-}
-
-#reason-box h4{
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  font-weight: normal;
-}
-
-#reason-box img{
-  display: flex;
-  justify-content: end;
-  width: 60px;
-  height: 60px;
-}
-
 #frequently-ques{
   width: 100%;
 }
 
-#info1, #info2,#info3,#info4,#info5,#info6{
+#info0,#info1, #info2,#info3,#info4,#info5{
   transition: max-height 0.5s ease, opacity 0.5s ease;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -276,6 +251,11 @@ button{
 
 #customercare p{
   margin-bottom: 40px;
+}
+
+.select-option{
+  padding: 0 0.5rem 0 1rem;
+  height: auto;
 }
 
 #dropdown{

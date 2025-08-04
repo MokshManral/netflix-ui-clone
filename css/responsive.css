@@ -1,0 +1,30 @@
+@media (max-width:450px) {
+
+  #reason-box{
+    padding: 1rem;
+    background-color: rgb(44, 50, 50);
+    border-radius: 10px;
+    height: min-content;
+    width: 100%;
+  }
+
+  #reason-box h4{
+    background: transparent;
+    font-weight: bolder;
+  }
+  
+  #reason-box p{
+    opacity: 0.8;
+    background: transparent;
+    margin-top: 0.5rem;
+    font-size: 12px;
+  }
+
+  #reason-box img{
+    margin: 1rem 0px 0px 0px;
+    border-radius: 5px;
+    float: inline-end;
+    width: 40px;
+    height: 40px;
+  }
+}
